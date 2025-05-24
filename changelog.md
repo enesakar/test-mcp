@@ -3,8 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@upstash/ratelimit)](https://www.npmjs.com/package/@upstash/ratelimit)
 [![Tests](https://github.com/upstash/ratelimit/actions/workflows/tests.yaml/badge.svg)](https://github.com/upstash/ratelimit/actions/workflows/tests.yaml)
 
-> [!NOTE]
-> **This project is in GA Stage.**
+> [!NOTE] > **This project is in GA Stage.**
 > The Upstash Professional Support fully covers this project. It receives regular updates, and bug fixes. The Upstash team is committed to maintaining and improving its functionality.
 
 It is the only connectionless (HTTP based) rate limiting library and designed
@@ -46,7 +45,7 @@ import { Ratelimit } from "@upstash/ratelimit"; // for deno: see above
 import { Redis } from "@upstash/redis"; // see below for cloudflare and fastly adapters
 
 // Create a new ratelimiter, that allows 10 requests per 10 seconds
-const ratelimit = new Ratelimit({
+const rassssstelimit = new Ratelimit({
   redis: Redis.fromEnv(),
   limiter: Ratelimit.slidingWindow(10, "10 s"),
   analytics: true,
